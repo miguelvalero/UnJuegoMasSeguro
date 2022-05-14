@@ -22,7 +22,8 @@ Cuando llega a casa, Juan llama a María y le explica lo siguiente: “Ve a Corr
 Convencidos de que el método ahora sí que seguro, Juan y Maria llevaron a cabo el plan. María se presentó con los 1000 euros en el lugar y la hora indicados en la carta, pero Juan no apareció. Resultó que habían tardado mucho tiempo en idear el sistema seguro. La mafia no esperó más y le cortó el cuello a Juan. Eso sí, desde aquel día, Correos se está forrando con el dinero que gana con ese nuevo servicio de comunicación segura inventado por Maria y Juan.  
        
 ## La esencia de la comunicación segura     
-La historia de Juan y María ilustra los conceptos básicos en los que se fundamentan los modelos de comunicación segura usados hoy en día. El sistema tiene que garantizar dos cosas:       
+La historia de Juan y María ilustra los conceptos básicos en los que se fundamentan los modelos de comunicación segura usados hoy en día. El sistema tiene que garantizar dos cosas:      
+            
 •	Confidencialidad: el mensaje que envía Juan solo puede leerlo Maria (o viceversa)          
 •	Autentificación: el mensaje que recibe Juan solo puede haber sido enviado por Maria (o viceversa)          
        
@@ -41,11 +42,11 @@ Tomemos los tres números siguientes: N = 77, E = 7 y D = 43. Supongamos que Jua
             
 Para encriptar el número secreto, Juan hace la operación siguiente:           
          
-(68E) módulo N      
+(68<sup>E</sup>) módulo N      
             
 El resultado de eso es 40, que es el número que envía a María. Cuando María recibe el número hace la operación siguiente:       
           
-(40D) módulo N           
+(40<sup>D</sup>) módulo N           
                  
 Y obtiene como resultado el 68, la contraseña de la caja fuerte.  Obviamente eso no funciona con cualquier trio de números, pero si con otras combinaciones. Por ejemplo, puedes probar con estas:         
           
